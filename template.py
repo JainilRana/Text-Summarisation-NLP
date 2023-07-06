@@ -29,7 +29,6 @@ list_of_files = [
     "setup.py", # ths will help in local package setup
     "research/trials.ipynb", # contains all the jupyter notebooks
     "test.py"
-
 ]
 
 for filepath in list_of_files:
