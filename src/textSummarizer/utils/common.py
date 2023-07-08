@@ -4,7 +4,7 @@
 import os
 from box.exceptions import BoxValueError # refer video (1:02:24) ### directly access dictionary values
 import yaml
-from textSummarizer.logging import logger
+from src.textSummarizer.logging import logger
 from ensure import ensure_annotations
 from box import ConfigBox
 from pathlib import Path

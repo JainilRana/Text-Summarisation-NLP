@@ -1,0 +1,13 @@
+# artifacts function will be created and all the components will bve created inside it
+artifacts_root: artifacts
+
+# creating data ingestion configuration
+# ( the path and the urls that you have to use will be stored here )
+
+# whenever we will have to add new path or change the name we can do here and it will be reflected in entire code
+data_ingestion:
+  root_dir: artifacts/data_ingestion
+  source_URL: https://github.com/JainilRana/Text-Summarisation-NLP/raw/main/samsumdata.zip
+  local_data_files: artifacts/data_ingestion/data.zip
+  upzip_dir: artifacts/data_ingestion
+
