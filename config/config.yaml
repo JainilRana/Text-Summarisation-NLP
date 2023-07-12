@@ -7,7 +7,7 @@ artifacts_root: artifacts
 # whenever we will have to add new path or change the name we can do here and it will be reflected in entire code
 data_ingestion:
   root_dir: artifacts/data_ingestion
-  source_URL: https://github.com/JainilRana/Text-Summarisation-NLP/raw/main/samsumdata.zip
-  local_data_files: artifacts/data_ingestion/data.zip
-  upzip_dir: artifacts/data_ingestion
+  source_URL: https://github.com/entbappy/Branching-tutorial/raw/master/summarizer-data.zip
+  local_data_file: artifacts/data_ingestion/data.zip
+  unzip_dir: artifacts/data_ingestion
 
